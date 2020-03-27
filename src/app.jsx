@@ -16,18 +16,39 @@ import './app.less'
 const store = configStore()
 
 class App extends Component {
-
   config = {
     pages: [
-      'pages/index/index'
+        'pages/index/index',
+        'pages/post/post',
     ],
+      tabBar: {
+          "color": "#8B8682",
+          "selectedColor": "#EF7E00",
+          "backgroundColor": "#000000",
+          "borderStyle": "white",
+          "list": [
+              {
+                  pagePath: "pages/index/index",
+                  iconPath: "./static/images/search@2x.png",
+                  selectedIconPath: "./static/images/search-active@2x.png",
+                  text: "View"
+              },
+              {
+                  "pagePath": "pages/post/post",
+                  "iconPath": "./static/images/profile@2x.png",
+                  "selectedIconPath": "./static/images/profile-active@2x.png",
+                  "text": "Post"
+              }
+          ],
+          position: 'top'
+      },
     window: {
-      backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: 'WeChat',
-      navigationBarTextStyle: 'black'
+        "navigationBarTitleText": "Cozystay驿家短租",
+        "navigationBarBackgroundColor": "#EF8600",
+        "navigationBarTextStyle": "white",
+        "backgroundTextStyle": "light"
     }
-  }
+  };
 
   componentDidMount () {}
 

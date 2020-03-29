@@ -19,10 +19,10 @@ import './index.less'
     dispatch(asyncAdd())
   }
 }))
-
 class Index extends Component {
+
     config = {
-    navigationBarTitleText: 'BuyingInfo'
+    navigationBarTitleText: '首页'
   };
 
   componentWillReceiveProps (nextProps) {
@@ -50,7 +50,7 @@ class Index extends Component {
               <View className='infoCard'>
                   <Image src='../../static/images/sac.png' mode='aspectFill'></Image>
                   <View className='infoText'>
-                      <Text className='title'>(销量告罄)buy some items</Text>
+                      <Text className='title'>(销量告罄)buy buy buy some items</Text>
                       <Text className='desc'>i can find sth in some place, post this for sharing to everyone. i can find sth in some place, post this for sharing to everyone.</Text>
                       <Text className='timeTag'>10 hours ago, 10 people verified</Text>
                   </View>

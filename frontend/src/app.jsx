@@ -16,13 +16,7 @@ import './app.less'
 const store = configStore();
 
 class App extends Component {
-<<<<<<< HEAD
 
-  componentDidMount() {
-  }
-
-=======
->>>>>>> d5a57655fa4705d9f602c6a71e3c38cafa759d27
   config = {
     pages: [
         'pages/index/index',
@@ -56,11 +50,8 @@ class App extends Component {
         "backgroundTextStyle": "light"
     }
   };
-<<<<<<< HEAD
-=======
 
   componentDidMount () {}
->>>>>>> d5a57655fa4705d9f602c6a71e3c38cafa759d27
 
   componentDidShow() {
   }

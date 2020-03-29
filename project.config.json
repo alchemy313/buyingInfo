@@ -1,16 +1,45 @@
 {
-	"miniprogramRoot": "dist/",
-	"projectname": "BuyingInfo",
-	"description": "Information board for daily supplies",
-	"appid": "wx05221329d4a63611",
+	"miniprogramRoot": "frontend/dist/",
+	"cloudfunctionRoot": "backend/",
 	"setting": {
 		"urlCheck": true,
-		"es6": false,
-		"postcss": false,
-		"minified": false
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
 	},
-	"compileType": "miniprogram",
+	"appid": "wxac4cd0ca844f96e5",
+	"projectname": "BuyingInfo",
+	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
-	"condition": {}
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide"
+				}
+			]
+		}
+	}
 }

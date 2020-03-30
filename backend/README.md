@@ -9,7 +9,6 @@
 1. View Store Summary (Buyer)
 1. View Self Info (Buyer)
 1. Edit Self Info (Buyer)
-1. View Product Info
 1. Edit Cart
 1. List Cart Items
 1. View Order Info

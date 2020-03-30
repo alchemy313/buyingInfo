@@ -19,7 +19,7 @@ exports.main = async (event, context) => {
       content: '收到：' + event.Content,
     }
   })
-
+-+
   console.log(result)
 
   return result

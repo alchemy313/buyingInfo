@@ -2,7 +2,7 @@ import Taro, { Component } from '@tarojs/taro'
 import { Image, View, Button, Text, RadioGroup, Label, Radio, Input, Textarea, Picker } from '@tarojs/components'
 
 
-import './post.less'
+import './sellerPost.less'
 
 
 class Post extends Component {
@@ -45,7 +45,7 @@ class Post extends Component {
 
     render () {
         return (
-            <View className='postView'>
+            <View className='sellerPostView'>
                 <Text className='title'>PHOTO</Text>
                 <View className='photoContent'>
                     <Image src='../../static/images/camera.png' mode='aspectFill'></Image>
